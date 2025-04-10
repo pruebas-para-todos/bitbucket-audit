@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "deployment": {
+    "name": "a",
+    "source-plan": "PP-PP"
+  },
+  "release-naming": {
+    "next-version-name": "release-1",
+    "applies-to-branches": false,
+    "auto-increment": true,
+    "auto-increment-variables": [
+
+    ]
+  },
+  "environments": [
+    "pro"
+  ],
+  "pro": {
+    "triggers": [
+
+    ],
+    "tasks": [
+      "clean",
+      {
+        "artifact-download": {
+          "artifacts": [
+            {
+            }
+          ],
+          "description": "Download release contents"
+        }
+      }
+    ],
+    "final-tasks": [
+
+    ],
+    "variables": {
+    },
+    "requirements": [
+
+    ],
+    "notifications": [
+
+    ],
+    "source_plan": "PP-PP"
+  }
+}
