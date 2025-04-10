@@ -1,0 +1,50 @@
+# Logfile created on 2025-04-10 14:32:25 +0000 by logger.rb/v1.6.0
+I, [2025-04-10T14:32:25.701951 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2025-04-10T14:32:25.701995 #1]  INFO -- : Auditing 'REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com'
+I, [2025-04-10T14:32:25.708409 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/info
+I, [2025-04-10T14:32:25.937154 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:25.938639 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan
+I, [2025-04-10T14:32:26.162476 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:26.163046 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan?start-index=1
+I, [2025-04-10T14:32:26.387700 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:26.388343 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/deploy/project/all
+I, [2025-04-10T14:32:26.610353 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:26.610834 #1]  INFO -- : Thread collection size: 4
+I, [2025-04-10T14:32:26.612583 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP/specs?format=YAML
+I, [2025-04-10T14:32:26.613382 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP/specs?format=YAML
+I, [2025-04-10T14:32:26.861886 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:26.863731 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP
+I, [2025-04-10T14:32:26.864569 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:26.865315 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP
+I, [2025-04-10T14:32:27.094694 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.095149 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP/variables
+I, [2025-04-10T14:32:27.106172 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.106682 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP/variables
+I, [2025-04-10T14:32:27.314191 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.314834 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PP/variables
+I, [2025-04-10T14:32:27.331549 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.332149 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PP/variables
+I, [2025-04-10T14:32:27.543769 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.544358 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PP
+I, [2025-04-10T14:32:27.561798 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.562398 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PP
+I, [2025-04-10T14:32:27.768179 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.769116 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP-JOB1
+I, [2025-04-10T14:32:27.788166 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:27.788632 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PP-PP-JOB1
+I, [2025-04-10T14:32:28.000425 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:28.012546 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:28.019438 #1]  INFO -- : Output file(s):
+I, [2025-04-10T14:32:28.022074 #1]  INFO -- :   tmp/audit/build/pp/pp/.github/workflows/pp.yml
+I, [2025-04-10T14:32:28.022620 #1]  INFO -- :   tmp/audit/build/pp/pp/config.json
+I, [2025-04-10T14:32:28.023232 #1]  INFO -- :   tmp/audit/build/pp/pp/source.yml
+I, [2025-04-10T14:32:28.024741 #1]  INFO -- :   tmp/audit/build/pp/pp/.github/workflows/pp.yml
+I, [2025-04-10T14:32:28.025447 #1]  INFO -- :   tmp/audit/build/pp/pp/config.json
+I, [2025-04-10T14:32:28.026117 #1]  INFO -- :   tmp/audit/build/pp/pp/source.yml
+I, [2025-04-10T14:32:28.027138 #1]  INFO -- :   tmp/audit/workflow_usage.csv
+I, [2025-04-10T14:32:28.028878 #1]  INFO -- :   tmp/audit/audit_summary.md
+W, [2025-04-10T14:32:32.313554 #1]  WARN -- : Secrets redacted in file(s):
+W, [2025-04-10T14:32:32.313807 #1]  WARN -- :   tmp/audit/log/valet-20250410-143225.log
+I, [2025-04-10T14:32:32.353720 #1]  INFO -- request: GET https://api.github.com/user
+I, [2025-04-10T14:32:32.499881 #1]  INFO -- response: Status 200
+I, [2025-04-10T14:32:32.501109 #1]  INFO -- : Sending telemetry with transaction id '68ff4007-7e7e-4f42-80c2-70bc0640cd56'
