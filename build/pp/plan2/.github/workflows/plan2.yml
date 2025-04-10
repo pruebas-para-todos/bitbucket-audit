@@ -1,0 +1,16 @@
+name: pp/plan2
+on:
+  workflow_dispatch:
+jobs:
+  Default-Stage-Default-Job:
+    runs-on: ubuntu-latest
+    steps:
+#     # This item has no matching transformer
+#     - any-task/plugin-key/com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:reloadAppTask:
+#         any-task:
+#           plugin-key: com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:reloadAppTask
+#           configuration:
+#             encTomcatPassword: BAMSCRT@0@0@srjbEkejiiq4DugbbyteYw==
+#             appContext: "/test"
+#             tomcatUrl: REDACTED://localhost:8080/manager/
+#             tomcatUsername: admin
