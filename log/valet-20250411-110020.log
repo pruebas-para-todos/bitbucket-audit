@@ -1,0 +1,99 @@
+# Logfile created on 2025-04-11 11:00:20 +0000 by logger.rb/v1.6.0
+I, [2025-04-11T11:00:20.947343 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2025-04-11T11:00:20.947388 #1]  INFO -- : Auditing 'REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com'
+I, [2025-04-11T11:00:20.954789 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/info
+I, [2025-04-11T11:00:21.164231 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:21.166145 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan
+I, [2025-04-11T11:00:21.367800 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:21.368552 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan?start-index=2
+I, [2025-04-11T11:00:21.578240 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:21.579014 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/deploy/project/all
+I, [2025-04-11T11:00:21.829526 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:21.830203 #1]  INFO -- : Thread collection size: 4
+I, [2025-04-11T11:00:21.832849 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB/specs?format=YAML
+I, [2025-04-11T11:00:21.833617 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS/specs?format=YAML
+I, [2025-04-11T11:00:21.834328 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB/specs?format=YAML
+I, [2025-04-11T11:00:21.835072 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS/specs?format=YAML
+I, [2025-04-11T11:00:22.130689 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.130765 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.133180 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.134644 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS
+I, [2025-04-11T11:00:22.135168 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB
+I, [2025-04-11T11:00:22.133902 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS
+I, [2025-04-11T11:00:22.135672 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.137027 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB
+I, [2025-04-11T11:00:22.403548 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.404294 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS/variables
+I, [2025-04-11T11:00:22.404793 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.405585 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS/variables
+I, [2025-04-11T11:00:22.405917 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.406505 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB/variables
+I, [2025-04-11T11:00:22.406834 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.407456 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB/variables
+I, [2025-04-11T11:00:22.632788 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.633535 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB/variables
+I, [2025-04-11T11:00:22.640850 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.641405 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB/variables
+I, [2025-04-11T11:00:22.641758 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.642206 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB/variables
+I, [2025-04-11T11:00:22.642516 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.642987 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB/variables
+I, [2025-04-11T11:00:22.832773 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.833558 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB
+I, [2025-04-11T11:00:22.864556 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.865243 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB
+I, [2025-04-11T11:00:22.877690 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.878268 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB
+I, [2025-04-11T11:00:22.878751 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:22.879188 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/PRUEB
+I, [2025-04-11T11:00:23.032407 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.033403 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS-JOB1
+I, [2025-04-11T11:00:23.077853 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.078533 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEBAS-JOB1
+I, [2025-04-11T11:00:23.087445 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.087946 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB-JOB1
+I, [2025-04-11T11:00:23.089345 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.089829 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/PRUEB-PRUEB-JOB1
+I, [2025-04-11T11:00:23.232674 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.278176 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.294169 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.296631 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.297410 #1]  INFO -- : Thread collection size: 4
+I, [2025-04-11T11:00:23.298727 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/deploy/project/851969/specs?format=YAML
+I, [2025-04-11T11:00:23.588799 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.590677 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/deploy/project/851969?expand=environment
+I, [2025-04-11T11:00:23.793820 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:23.794587 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/deploy/environment/917505/variables
+I, [2025-04-11T11:00:23.997275 #1]  INFO -- response: Status 200
+D, [2025-04-11T11:00:24.000233 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Failed to locate transformer for 'any-task/plugin-key/com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask'
+D, [2025-04-11T11:00:24.005967 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Located transformer for 'script'
+D, [2025-04-11T11:00:24.009683 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Failed to locate transformer for 'any-task/plugin-key/com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask'
+D, [2025-04-11T11:00:24.013570 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Located transformer for 'script'
+D, [2025-04-11T11:00:24.015711 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Located transformer for 'clean'
+D, [2025-04-11T11:00:24.015854 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Located transformer for 'artifact-download'
+I, [2025-04-11T11:00:24.026568 #1]  INFO -- : Output file(s):
+I, [2025-04-11T11:00:24.028820 #1]  INFO -- :   tmp/audit/build/prueba/prueba/.github/workflows/prueba.yml
+I, [2025-04-11T11:00:24.029348 #1]  INFO -- :   tmp/audit/build/prueba/prueba/config.json
+I, [2025-04-11T11:00:24.029910 #1]  INFO -- :   tmp/audit/build/prueba/prueba/source.yml
+I, [2025-04-11T11:00:24.031106 #1]  INFO -- :   tmp/audit/build/prueba/prueba2a/.github/workflows/prueba2a.yml
+I, [2025-04-11T11:00:24.032335 #1]  INFO -- :   tmp/audit/build/prueba/prueba2a/config.json
+I, [2025-04-11T11:00:24.033015 #1]  INFO -- :   tmp/audit/build/prueba/prueba2a/source.yml
+I, [2025-04-11T11:00:24.034279 #1]  INFO -- :   tmp/audit/build/prueba/prueba/.github/workflows/prueba.yml
+I, [2025-04-11T11:00:24.035102 #1]  INFO -- :   tmp/audit/build/prueba/prueba/config.json
+I, [2025-04-11T11:00:24.036076 #1]  INFO -- :   tmp/audit/build/prueba/prueba/source.yml
+I, [2025-04-11T11:00:24.037612 #1]  INFO -- :   tmp/audit/build/prueba/prueba2a/.github/workflows/prueba2a.yml
+I, [2025-04-11T11:00:24.038309 #1]  INFO -- :   tmp/audit/build/prueba/prueba2a/config.json
+I, [2025-04-11T11:00:24.039585 #1]  INFO -- :   tmp/audit/build/prueba/prueba2a/source.yml
+I, [2025-04-11T11:00:24.041063 #1]  INFO -- :   tmp/audit/deployment/asdf/.github/workflows/asdf_pro.yml
+I, [2025-04-11T11:00:24.041817 #1]  INFO -- :   tmp/audit/deployment/asdf/config.json
+I, [2025-04-11T11:00:24.042633 #1]  INFO -- :   tmp/audit/deployment/asdf/source.yml
+I, [2025-04-11T11:00:24.044946 #1]  INFO -- :   tmp/audit/workflow_usage.csv
+I, [2025-04-11T11:00:24.049353 #1]  INFO -- :   tmp/audit/audit_summary.md
+W, [2025-04-11T11:00:28.597872 #1]  WARN -- : Secrets redacted in file(s):
+W, [2025-04-11T11:00:28.598173 #1]  WARN -- :   tmp/audit/build/prueba/prueba/.github/workflows/prueba.yml
+W, [2025-04-11T11:00:28.598319 #1]  WARN -- :   tmp/audit/build/prueba/prueba/source.yml
+W, [2025-04-11T11:00:28.598470 #1]  WARN -- :   tmp/audit/build/prueba/prueba/config.json
+W, [2025-04-11T11:00:28.598611 #1]  WARN -- :   tmp/audit/log/valet-20250411-110020.log
+I, [2025-04-11T11:00:28.646350 #1]  INFO -- request: GET https://api.github.com/user
+I, [2025-04-11T11:00:28.758743 #1]  INFO -- response: Status 200
+I, [2025-04-11T11:00:28.759994 #1]  INFO -- : Sending telemetry with transaction id '59d6eb4a-e5e7-4897-aa05-9327b7504013'
