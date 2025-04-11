@@ -1,4 +1,4 @@
-name: pp/plan2
+name: prueba/prueba
 on:
   workflow_dispatch:
 jobs:
@@ -11,7 +11,7 @@ jobs:
 #           plugin-key: com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask
 #           configuration:
 #             tomcatUrl: REDACTED://localhost:8080/manager/
-#             warFilePath: "/src"
+#             warFilePath: asdf
 #             tomcatUsername: admin
-#             encTomcatPassword: BAMSCRT@0@0@QyislOE/cY0gyxSYlhz6GA==
+#             encTomcatPassword: BAMSCRT@0@0@VE/hnuLpnZ5emZ6WGDp6HA==
 #             appContext: "/test"

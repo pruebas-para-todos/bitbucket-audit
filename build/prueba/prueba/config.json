@@ -1,9 +1,9 @@
 {
   "version": 2,
   "plan": {
-    "project-key": "PP",
-    "key": "PLAN",
-    "name": "plan2"
+    "project-key": "PRUEB",
+    "key": "PRUEB",
+    "name": "prueba"
   },
   "stages": [
     {
@@ -24,9 +24,9 @@
           "plugin-key": "com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask",
           "configuration": {
             "tomcatUrl": "REDACTED://localhost:8080/manager/",
-            "warFilePath": "/src",
+            "warFilePath": "asdf",
             "tomcatUsername": "admin",
-            "encTomcatPassword": "BAMSCRT@0@0@QyislOE/cY0gyxSYlhz6GA==",
+            "encTomcatPassword": "BAMSCRT@0@0@VE/hnuLpnZ5emZ6WGDp6HA==",
             "appContext": "/test"
           }
         }
@@ -35,7 +35,7 @@
     "artifact-subscriptions": [
 
     ],
-    "source_plan": "PP-PLAN",
+    "source_plan": "PRUEB-PRUEB",
     "enabled": true
   },
   "repositories": [
