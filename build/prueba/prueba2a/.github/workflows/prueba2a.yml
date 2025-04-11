@@ -1,0 +1,9 @@
+name: prueba/prueba2a
+on:
+  workflow_dispatch:
+jobs:
+  Default-Stage-Default-Job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: aa
+      run: echo "HOla"
