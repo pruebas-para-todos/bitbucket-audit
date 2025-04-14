@@ -1,9 +1,9 @@
 {
   "version": 2,
   "plan": {
-    "project-key": "PRUEB",
-    "key": "PRUEBAS",
-    "name": "prueba2a"
+    "project-key": "ASD",
+    "key": "PLAN",
+    "name": "plan"
   },
   "stages": [
     {
@@ -20,19 +20,22 @@
     "key": "JOB1",
     "tasks": [
       {
-        "script": {
-          "interpreter": "SHELL",
-          "scripts": [
-            "echo \"HOla\""
-          ],
-          "description": "aa"
+        "any-task": {
+          "plugin-key": "com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask",
+          "configuration": {
+            "tomcatUrl": "REDACTED://localhost:8080/manager/",
+            "warFilePath": "src/",
+            "tomcatUsername": "admin",
+            "encTomcatPassword": "BAMSCRT@0@0@N5r7aZ6H9yjZ5zbDrMHSag==",
+            "appContext": "/test"
+          }
         }
       }
     ],
     "artifact-subscriptions": [
 
     ],
-    "source_plan": "PRUEB-PRUEBAS",
+    "source_plan": "ASD-PLAN",
     "enabled": true
   },
   "repositories": [
