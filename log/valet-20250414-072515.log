@@ -1,0 +1,87 @@
+# Logfile created on 2025-04-14 07:25:15 +0000 by logger.rb/v1.6.0
+I, [2025-04-14T07:25:15.236060 #1]  INFO -- : Using GitHub Features: Defaults
+I, [2025-04-14T07:25:15.236113 #1]  INFO -- : Auditing 'REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com'
+I, [2025-04-14T07:25:15.243067 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/info
+I, [2025-04-14T07:25:15.505382 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:15.507034 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan
+I, [2025-04-14T07:25:15.723254 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:15.724102 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan?start-index=2
+I, [2025-04-14T07:25:15.935692 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:15.936462 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/deploy/project/all
+I, [2025-04-14T07:25:16.153936 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.154657 #1]  INFO -- : Thread collection size: 4
+I, [2025-04-14T07:25:16.156719 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK/specs?format=YAML
+I, [2025-04-14T07:25:16.157500 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN/specs?format=YAML
+I, [2025-04-14T07:25:16.158166 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK/specs?format=YAML
+I, [2025-04-14T07:25:16.159082 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN/specs?format=YAML
+I, [2025-04-14T07:25:16.435860 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.437981 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK
+I, [2025-04-14T07:25:16.454447 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.455429 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK
+I, [2025-04-14T07:25:16.458333 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.466112 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN
+I, [2025-04-14T07:25:16.466551 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.467476 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN
+I, [2025-04-14T07:25:16.683391 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.684101 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK/variables
+I, [2025-04-14T07:25:16.707429 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.707938 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK/variables
+I, [2025-04-14T07:25:16.710960 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.711366 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN/variables
+I, [2025-04-14T07:25:16.713119 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.714375 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN/variables
+I, [2025-04-14T07:25:16.923963 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.924584 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD/variables
+I, [2025-04-14T07:25:16.944025 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.944596 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD/variables
+I, [2025-04-14T07:25:16.945212 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.945612 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD/variables
+I, [2025-04-14T07:25:16.947082 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:16.947499 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD/variables
+I, [2025-04-14T07:25:17.173530 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.174268 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD
+I, [2025-04-14T07:25:17.181093 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.181595 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD
+I, [2025-04-14T07:25:17.190876 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.191289 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD
+I, [2025-04-14T07:25:17.196794 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.197196 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/project/ASD
+I, [2025-04-14T07:25:17.425186 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.426346 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN-JOB1
+I, [2025-04-14T07:25:17.427406 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.428130 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK-JOB1
+I, [2025-04-14T07:25:17.428971 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.429421 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-OK-JOB1
+I, [2025-04-14T07:25:17.429979 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.430420 #1]  INFO -- request: GET REDACTED://backstage-demo-bamboo.westeurope.cloudapp.azure.com/rest/api/latest/plan/ASD-PLAN-JOB1
+I, [2025-04-14T07:25:17.673391 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.694250 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.695560 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:17.696372 #1]  INFO -- response: Status 200
+D, [2025-04-14T07:25:17.698642 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Located transformer for 'script'
+D, [2025-04-14T07:25:17.702876 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Failed to locate transformer for 'any-task/plugin-key/com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask'
+D, [2025-04-14T07:25:17.706724 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Located transformer for 'script'
+D, [2025-04-14T07:25:17.708337 #1] DEBUG -- : [Transformers::Bamboo::Steps]: Failed to locate transformer for 'any-task/plugin-key/com.atlassian.bamboo.plugins.tomcat.bamboo-tomcat-plugin:deployAppTask'
+I, [2025-04-14T07:25:17.711871 #1]  INFO -- : Output file(s):
+I, [2025-04-14T07:25:17.714046 #1]  INFO -- :   tmp/audit/build/asd/okplan/.github/workflows/okplan.yml
+I, [2025-04-14T07:25:17.714556 #1]  INFO -- :   tmp/audit/build/asd/okplan/config.json
+I, [2025-04-14T07:25:17.715207 #1]  INFO -- :   tmp/audit/build/asd/okplan/source.yml
+I, [2025-04-14T07:25:17.716534 #1]  INFO -- :   tmp/audit/build/asd/plan/.github/workflows/plan.yml
+I, [2025-04-14T07:25:17.717143 #1]  INFO -- :   tmp/audit/build/asd/plan/config.json
+I, [2025-04-14T07:25:17.717829 #1]  INFO -- :   tmp/audit/build/asd/plan/source.yml
+I, [2025-04-14T07:25:17.718979 #1]  INFO -- :   tmp/audit/build/asd/okplan/.github/workflows/okplan.yml
+I, [2025-04-14T07:25:17.719706 #1]  INFO -- :   tmp/audit/build/asd/okplan/config.json
+I, [2025-04-14T07:25:17.720410 #1]  INFO -- :   tmp/audit/build/asd/okplan/source.yml
+I, [2025-04-14T07:25:17.721663 #1]  INFO -- :   tmp/audit/build/asd/plan/.github/workflows/plan.yml
+I, [2025-04-14T07:25:17.722418 #1]  INFO -- :   tmp/audit/build/asd/plan/config.json
+I, [2025-04-14T07:25:17.723276 #1]  INFO -- :   tmp/audit/build/asd/plan/source.yml
+I, [2025-04-14T07:25:17.724645 #1]  INFO -- :   tmp/audit/workflow_usage.csv
+I, [2025-04-14T07:25:17.728107 #1]  INFO -- :   tmp/audit/audit_summary.md
+W, [2025-04-14T07:25:22.226124 #1]  WARN -- : Secrets redacted in file(s):
+W, [2025-04-14T07:25:22.226392 #1]  WARN -- :   tmp/audit/build/asd/plan/.github/workflows/plan.yml
+W, [2025-04-14T07:25:22.226562 #1]  WARN -- :   tmp/audit/build/asd/plan/config.json
+W, [2025-04-14T07:25:22.226727 #1]  WARN -- :   tmp/audit/build/asd/plan/source.yml
+W, [2025-04-14T07:25:22.226958 #1]  WARN -- :   tmp/audit/log/valet-20250414-072515.log
+I, [2025-04-14T07:25:22.265327 #1]  INFO -- request: GET https://api.github.com/user
+I, [2025-04-14T07:25:22.361891 #1]  INFO -- response: Status 200
+I, [2025-04-14T07:25:22.363117 #1]  INFO -- : Sending telemetry with transaction id 'ae08d710-20a7-4eca-a479-ae93c06f821e'

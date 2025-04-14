@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "plan": {
+    "project-key": "ASD",
+    "key": "OK",
+    "name": "okplan"
+  },
+  "stages": [
+    {
+      "Default Stage": {
+        "manual": false,
+        "final": false,
+        "jobs": [
+          "Default Job"
+        ]
+      }
+    }
+  ],
+  "Default Job": {
+    "key": "JOB1",
+    "tasks": [
+      {
+        "script": {
+          "interpreter": "SHELL",
+          "scripts": [
+            "echo \"Hola\""
+          ]
+        }
+      }
+    ],
+    "artifact-subscriptions": [
+
+    ],
+    "source_plan": "ASD-OK",
+    "enabled": true
+  },
+  "repositories": [
+
+  ],
+  "triggers": [
+
+  ],
+  "branches": {
+    "create": "manually",
+    "delete": "never",
+    "link-to-jira": true
+  },
+  "notifications": [
+
+  ],
+  "labels": [
+
+  ],
+  "dependencies": {
+    "require-all-stages-passing": false,
+    "enabled-for-branches": true,
+    "block-strategy": "none",
+    "plans": [
+
+    ]
+  },
+  "other": {
+    "concurrent-build-plugin": {
+      "number-of-concurrent-builds": "system-default",
+      "execution-strategy": "block-triggering"
+    }
+  }
+}
